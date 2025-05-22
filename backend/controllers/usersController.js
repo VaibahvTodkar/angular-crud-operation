@@ -20,13 +20,14 @@ exports.getUsers = async(req, res)=>{
 // post API CREATE
 exports.postUser = async(req, res)=>{
     try{
-        const {firstName, lastName, email, contact, gender, skill} = req.body;
+        const {firstName, lastName, email, contact, gender, age, skill} = req.body;
         const newForm = new User({
             firstName,
             lastName, 
             email,
             contact, 
-            gender, 
+            gender,
+            age, 
             skill
         })
 

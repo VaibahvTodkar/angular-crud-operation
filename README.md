@@ -59,8 +59,8 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 
-Created an Angular CRUD APPlication using MEAN and CORS
+## Created an Angular CRUD APPlication using MEAN and CORS
 1.Create user
 2.Delete User
-3.Update User  // some issue
+3.Update User  
 4.View Users
