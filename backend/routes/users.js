@@ -19,6 +19,8 @@ router.put("/user", jsonParser,userController.updateUser);
 // Delete API delete
 router.delete("/user/:id", jsonParser,userController.deleteUser); 
 
+// get user by Id
+router.get("/user/:id", jsonParser,userController.getUserById)
 
 
 module.exports = router;
